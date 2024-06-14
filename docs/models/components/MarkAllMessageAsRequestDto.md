@@ -1,0 +1,9 @@
+# MarkAllMessageAsRequestDto
+
+
+## Fields
+
+| Field                                                                                                                 | Type                                                                                                                  | Required                                                                                                              | Description                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `feedIdentifier`                                                                                                      | [Optional<? extends co.novu.co.novu.sdk.models.components.FeedIdentifier>](../../models/components/FeedIdentifier.md) | :heavy_minus_sign:                                                                                                    | Optional feed identifier or array of feed identifiers                                                                 |
+| `markAs`                                                                                                              | [co.novu.co.novu.sdk.models.components.MarkAs](../../models/components/MarkAs.md)                                     | :heavy_check_mark:                                                                                                    | Mark all subscriber messages as read, unread, seen or unseen                                                          |

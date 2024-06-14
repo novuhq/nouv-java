@@ -1,0 +1,11 @@
+# FieldFilterPart
+
+
+## Fields
+
+| Field                                                                                 | Type                                                                                  | Required                                                                              | Description                                                                           |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `field`                                                                               | *String*                                                                              | :heavy_check_mark:                                                                    | N/A                                                                                   |
+| `on`                                                                                  | [co.novu.co.novu.sdk.models.components.On](../../models/components/On.md)             | :heavy_check_mark:                                                                    | N/A                                                                                   |
+| `operator`                                                                            | [co.novu.co.novu.sdk.models.components.Operator](../../models/components/Operator.md) | :heavy_check_mark:                                                                    | N/A                                                                                   |
+| `value`                                                                               | *String*                                                                              | :heavy_check_mark:                                                                    | N/A                                                                                   |

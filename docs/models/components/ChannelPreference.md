@@ -1,0 +1,9 @@
+# ChannelPreference
+
+
+## Fields
+
+| Field                                                                                                           | Type                                                                                                            | Required                                                                                                        | Description                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `enabled`                                                                                                       | *boolean*                                                                                                       | :heavy_check_mark:                                                                                              | If channel is enabled or not                                                                                    |
+| `type`                                                                                                          | [co.novu.co.novu.sdk.models.components.ChannelPreferenceType](../../models/components/ChannelPreferenceType.md) | :heavy_check_mark:                                                                                              | The type of channel that is enabled or not                                                                      |

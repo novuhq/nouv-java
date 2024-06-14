@@ -1,0 +1,15 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    openapi:
+        inputs:
+            #            - location: http://api.novu.co/openapi.sdk.json
+            - location: ./sources/openapi.sdk.json
+        overlays:
+            - location: ./sources/remove-headers-overlay.yaml
+        registry:
+            location: registry.speakeasyapi.dev/novu/novu/json-development
+targets:
+    my-first-target:
+        target: java
+        source: openapi

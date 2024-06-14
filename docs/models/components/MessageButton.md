@@ -1,0 +1,10 @@
+# MessageButton
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `content`                                                                                               | *String*                                                                                                | :heavy_check_mark:                                                                                      | N/A                                                                                                     |
+| `resultContent`                                                                                         | *Optional<? extends String>*                                                                            | :heavy_minus_sign:                                                                                      | N/A                                                                                                     |
+| `type`                                                                                                  | [co.novu.co.novu.sdk.models.components.MessageButtonType](../../models/components/MessageButtonType.md) | :heavy_check_mark:                                                                                      | N/A                                                                                                     |

@@ -1,0 +1,9 @@
+# MessagesControllerDeleteMessagesByTransactionIdRequest
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `channel`                                                                                               | [Optional<? extends co.novu.co.novu.sdk.models.operations.Channel>](../../models/operations/Channel.md) | :heavy_minus_sign:                                                                                      | The channel of the message to be deleted                                                                |
+| `transactionId`                                                                                         | *String*                                                                                                | :heavy_check_mark:                                                                                      | N/A                                                                                                     |

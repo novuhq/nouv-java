@@ -1,0 +1,9 @@
+# TenantControllerUpdateTenantRequest
+
+
+## Fields
+
+| Field                                                                                                             | Type                                                                                                              | Required                                                                                                          | Description                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `identifier`                                                                                                      | *String*                                                                                                          | :heavy_check_mark:                                                                                                | N/A                                                                                                               |
+| `updateTenantRequestDto`                                                                                          | [co.novu.co.novu.sdk.models.components.UpdateTenantRequestDto](../../models/components/UpdateTenantRequestDto.md) | :heavy_check_mark:                                                                                                | N/A                                                                                                               |

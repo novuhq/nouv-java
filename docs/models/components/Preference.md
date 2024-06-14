@@ -1,0 +1,9 @@
+# Preference
+
+
+## Fields
+
+| Field                                                                                                     | Type                                                                                                      | Required                                                                                                  | Description                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `channels`                                                                                                | [co.novu.co.novu.sdk.models.components.PreferenceChannels](../../models/components/PreferenceChannels.md) | :heavy_check_mark:                                                                                        | Subscriber preferences for the different channels regarding this workflow                                 |
+| `enabled`                                                                                                 | *boolean*                                                                                                 | :heavy_check_mark:                                                                                        | Sets if the workflow is fully enabled for all channels or not for the subscriber.                         |

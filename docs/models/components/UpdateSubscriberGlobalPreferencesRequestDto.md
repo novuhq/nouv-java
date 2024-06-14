@@ -1,0 +1,9 @@
+# UpdateSubscriberGlobalPreferencesRequestDto
+
+
+## Fields
+
+| Field                                                                                                         | Type                                                                                                          | Required                                                                                                      | Description                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `enabled`                                                                                                     | *Optional<? extends Boolean>*                                                                                 | :heavy_minus_sign:                                                                                            | Enable or disable the subscriber global preferences.                                                          |
+| `preferences`                                                                                                 | List<[co.novu.co.novu.sdk.models.components.ChannelPreference](../../models/components/ChannelPreference.md)> | :heavy_minus_sign:                                                                                            | The subscriber global preferences for every ChannelTypeEnum.                                                  |

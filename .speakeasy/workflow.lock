@@ -1,0 +1,36 @@
+speakeasyVersion: 1.308.1
+sources:
+    openapi:
+        sourceNamespace: json-development
+        sourceRevisionDigest: sha256:d4101eb94839879d275dcfc34671d4f822a540d1d85efd204045af4f36436b7a
+        sourceBlobDigest: sha256:a97c3b97a36f0e1416a5ff773d34831ba3c662ececa67ccf45a9863b3e241fc5
+        tags:
+            - latest
+    sample-source:
+        sourceNamespace: sample-source
+        sourceRevisionDigest: sha256:a253f99d18abdc584d230b02536738087143f3d8ccf74e371cbd29b156830574
+        sourceBlobDigest: sha256:13706d62886468eb50561fb3247cd976d5c881658a5e81127fc365ab06fc0f93
+        tags:
+            - latest
+targets:
+    my-first-target:
+        source: openapi
+        sourceNamespace: json-development
+        sourceRevisionDigest: sha256:d4101eb94839879d275dcfc34671d4f822a540d1d85efd204045af4f36436b7a
+        sourceBlobDigest: sha256:a97c3b97a36f0e1416a5ff773d34831ba3c662ececa67ccf45a9863b3e241fc5
+        outLocation: /Users/galtidhar/Documents/GitHub/nouv-java
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        openapi:
+            inputs:
+                - location: ./sources/openapi.sdk.json
+            overlays:
+                - location: ./sources/remove-headers-overlay.yaml
+            registry:
+                location: registry.speakeasyapi.dev/novu/novu/json-development
+    targets:
+        my-first-target:
+            target: java
+            source: openapi

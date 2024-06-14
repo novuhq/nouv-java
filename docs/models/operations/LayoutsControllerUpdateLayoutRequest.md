@@ -1,0 +1,9 @@
+# LayoutsControllerUpdateLayoutRequest
+
+
+## Fields
+
+| Field                                                                                                             | Type                                                                                                              | Required                                                                                                          | Description                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `layoutId`                                                                                                        | *String*                                                                                                          | :heavy_check_mark:                                                                                                | N/A                                                                                                               |
+| `updateLayoutRequestDto`                                                                                          | [co.novu.co.novu.sdk.models.components.UpdateLayoutRequestDto](../../models/components/UpdateLayoutRequestDto.md) | :heavy_check_mark:                                                                                                | N/A                                                                                                               |

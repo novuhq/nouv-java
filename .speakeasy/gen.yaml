@@ -1,0 +1,37 @@
+configVersion: 2.0.0
+generation:
+  sdkClassName: Novu
+  usageSnippets:
+    optionalPropertyRendering: withExample
+  useClassNamesForArrayFields: true
+  fixes:
+    nameResolutionDec2023: true
+    parameterOrderingFeb2024: true
+    requestResponseComponentNamesFeb2024: true
+  auth:
+    oAuth2ClientCredentialsEnabled: true
+java:
+  version: 0.2.0
+  additionalDependencies: []
+  additionalPlugins: []
+  artifactID: co.novu.sdk
+  clientServerStatusCodesAsErrors: true
+  companyEmail: support@novu.co
+  companyName: Novu
+  companyURL: www.novu.co
+  flattenGlobalSecurity: true
+  githubURL: github.com/novuhq/novu
+  groupID: co.novu
+  imports:
+    option: openapi
+    paths:
+      callbacks: models/callbacks
+      errors: models/errors
+      operations: models/operations
+      shared: models/components
+      webhooks: models/webhooks
+  inputModelSuffix: input
+  maxMethodParams: 2
+  outputModelSuffix: output
+  projectName: openapi
+  templateVersion: v2

@@ -1,0 +1,11 @@
+# ActivityGraphStatesResponse
+
+
+## Fields
+
+| Field                                                                                       | Type                                                                                        | Required                                                                                    | Description                                                                                 |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `id`                                                                                        | *String*                                                                                    | :heavy_check_mark:                                                                          | N/A                                                                                         |
+| `channels`                                                                                  | List<[co.novu.co.novu.sdk.models.components.Channels](../../models/components/Channels.md)> | :heavy_check_mark:                                                                          | N/A                                                                                         |
+| `count`                                                                                     | *double*                                                                                    | :heavy_check_mark:                                                                          | N/A                                                                                         |
+| `templates`                                                                                 | List<*String*>                                                                              | :heavy_check_mark:                                                                          | N/A                                                                                         |

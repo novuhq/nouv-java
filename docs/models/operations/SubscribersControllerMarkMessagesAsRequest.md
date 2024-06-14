@@ -1,0 +1,9 @@
+# SubscribersControllerMarkMessagesAsRequest
+
+
+## Fields
+
+| Field                                                                                                               | Type                                                                                                                | Required                                                                                                            | Description                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `subscriberId`                                                                                                      | *String*                                                                                                            | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |
+| `messageMarkAsRequestDto`                                                                                           | [co.novu.co.novu.sdk.models.components.MessageMarkAsRequestDto](../../models/components/MessageMarkAsRequestDto.md) | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |
