@@ -3,7 +3,6 @@ speakeasyVersion: latest
 sources:
     openapi:
         inputs:
-            #            - location: http://api.novu.co/openapi.sdk.json
             - location: ./sources/openapi.sdk.json
         overlays:
             - location: ./sources/remove-headers-overlay.yaml
