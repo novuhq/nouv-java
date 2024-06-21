@@ -21,9 +21,9 @@ class SDKConfiguration {
     public int serverIdx = 0;
     public String language = "java";
     public String openapiDocVersion = "1.0";
-    public String sdkVersion = "0.2.0";
-    public String genVersion = "2.342.6";
-    public String userAgent = "speakeasy-sdk/java 0.2.0 2.342.6 1.0 co.novu.co.novu.sdk";
+    public String sdkVersion = "0.2.1";
+    public String genVersion = "2.347.8";
+    public String userAgent = "speakeasy-sdk/java 0.2.1 2.347.8 1.0 co.novu.co.novu.sdk";
 
     private co.novu.co.novu.sdk.utils.Hooks _hooks = createHooks();
 

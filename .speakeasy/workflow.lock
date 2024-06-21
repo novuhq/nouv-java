@@ -2,10 +2,11 @@ speakeasyVersion: 1.308.1
 sources:
     openapi:
         sourceNamespace: json-development
-        sourceRevisionDigest: sha256:d4101eb94839879d275dcfc34671d4f822a540d1d85efd204045af4f36436b7a
-        sourceBlobDigest: sha256:a97c3b97a36f0e1416a5ff773d34831ba3c662ececa67ccf45a9863b3e241fc5
+        sourceRevisionDigest: sha256:902ec0e477d78a66e660f3fa4e10bdce76aa0af2ef7e335b3279e69d5f3f5d38
+        sourceBlobDigest: sha256:ee2602f8ea2a6eb512f703d13629be732af200ccc11f65c186738ece5b801f71
         tags:
             - latest
+            - main
     sample-source:
         sourceNamespace: sample-source
         sourceRevisionDigest: sha256:a253f99d18abdc584d230b02536738087143f3d8ccf74e371cbd29b156830574
@@ -16,9 +17,9 @@ targets:
     my-first-target:
         source: openapi
         sourceNamespace: json-development
-        sourceRevisionDigest: sha256:d4101eb94839879d275dcfc34671d4f822a540d1d85efd204045af4f36436b7a
-        sourceBlobDigest: sha256:a97c3b97a36f0e1416a5ff773d34831ba3c662ececa67ccf45a9863b3e241fc5
-        outLocation: /Users/galtidhar/Documents/GitHub/nouv-java
+        sourceRevisionDigest: sha256:902ec0e477d78a66e660f3fa4e10bdce76aa0af2ef7e335b3279e69d5f3f5d38
+        sourceBlobDigest: sha256:ee2602f8ea2a6eb512f703d13629be732af200ccc11f65c186738ece5b801f71
+        outLocation: /github/workspace/repo
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest

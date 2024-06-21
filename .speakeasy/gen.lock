@@ -3,15 +3,16 @@ id: 486a109d-38e0-427e-ab98-84931a9cec6c
 management:
   docChecksum: fd909d3ac88ddddc757bde177be7fbbe
   docVersion: "1.0"
-  speakeasyVersion: 1.308.1
-  generationVersion: 2.342.6
-  releaseVersion: 0.2.0
-  configChecksum: 9c581de953cd21ff2e3686c474ef927b
+  speakeasyVersion: 1.313.0
+  generationVersion: 2.347.8
+  releaseVersion: 0.2.1
+  configChecksum: ec83eb0c8530e84f05a1f759f948f1c2
+  repoURL: https://github.com/novuhq/nouv-java.git
 features:
   java:
     additionalDependencies: 0.1.0
     constsAndDefaults: 0.1.1
-    core: 3.23.2
+    core: 3.23.4
     deprecations: 2.81.1
     examples: 2.81.3
     flattening: 2.81.1
